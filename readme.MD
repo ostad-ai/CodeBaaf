@@ -5,6 +5,7 @@
 ---
 
 ## ✨ Features | رُخسارها
+
 - 🎨 **Modern Dark/Light Theme**: Easy on the eyes.
 - ⚡ **Syntax Highlighting & Auto-complete**: Write Python faster.
 - ▶️ **Run Code Instantly**: Execute your code inside the terminal or output tab.
@@ -49,8 +50,9 @@ We have included three sample Python scripts in the [samples](./samples/) folder
 <table>
 <tr>
 <td>
-<img src="./Media/ver-0-0.jpg" alt="A snapshot of the CodeBaaf, version 0.0" width="400">Figure 1. A snapshot of the CodeBaaf, version 0.0
+<img src="./Media/ver-0-0.jpg" alt="A snapshot of the CodeBaaf, version 0.0" width="400"><br>Figure 1. A snapshot of the CodeBaaf, version 0.0
 </td>
 </tr>
 </table>
+
 ---
