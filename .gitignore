@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+venv/
+env/
+.idea/
+.vscode/
+codebaaf_config.json
+temp_run.py
