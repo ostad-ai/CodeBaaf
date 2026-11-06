@@ -37,11 +37,11 @@ You can download the standalone `.exe` version directly from the **Releases** pa
 
 ---
 
-## 🧪 Sample Scripts | اسکریپت‌های نمونه
+## 🧪 Sample Scripts | نویسک‌های نمونه
 
 We have included **12 progressive Python tutorials** in the [samples](./samples/) folder. Whether you are a beginner or looking to test CodeBaaf's terminal, these scripts cover everything from basic variables to drawing with `turtle`. All scripts use only Python's built-in libraries! No extra dependencies required.
 
-ما **۱۲ اسکریپت آموزشی پایتون** در پوشه [samples](./samples/) قرار داده‌ایم. این اسکریپت‌ها از سطح مبتدی تا پیشرفته هستند و همگی فقط از کتابخانه‌های داخلی پایتون استفاده می‌کنند.
+ما **۱۲ نویسک آموزشی پایتون** در پوشه [samples](./samples/) جای داده‌ایم. این نویسک‌ها از پایه تازه‌کار تا پیشرفته هستند، و همگی تنها از نسکخانه‌های درونی پایتون بهره‌گیری می‌کنند.
 
 ### 🟢 Beginner | تازه‌کار
 1. `01_hello_world.py` - Basic print statements and variables.
