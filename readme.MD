@@ -63,7 +63,7 @@ Your stars are the light that keeps this project shining and motivate us to buil
 <img src="./Media/ver-0-0.jpg" alt="A snapshot of the CodeBaaf, version 0.0" width="400">Figure 1. A snapshot of the CodeBaaf, version 0.0, dark mode.
 </td>
 <td>
-<img src="./Media/ver-0-0-a.jpg" alt="A snapshot of the CodeBaaf, version 0.0" width="400"><br>Figure 2. A snapshot of the CodeBaaf, version 0.0, light mode.
+<img src="./Media/ver-0-0-a.jpg" alt="A snapshot of the CodeBaaf, version 0.0" width="400">Figure 2. A snapshot of the CodeBaaf, version 0.0, light mode.
 </td>
 </tr>
 </table>
