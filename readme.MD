@@ -39,11 +39,29 @@ You can download the standalone `.exe` version directly from the **Releases** pa
 
 ## 🧪 Sample Scripts | اسکریپت‌های نمونه
 
-We have included three sample Python scripts in the [samples](./samples/) folder to test CodeBaaf. You can download them directly from the repository or use the standalone `.exe` to open and run them.
+We have included **12 progressive Python tutorials** in the [samples](./samples/) folder. Whether you are a beginner or looking to test CodeBaaf's terminal, these scripts cover everything from basic variables to drawing with `turtle`. All scripts use only Python's built-in libraries! No extra dependencies required.
 
-1. **`hello_world.py`** - Basic print statements (No extra libraries).
-2. **`input_test.py`** - A script to test terminal input and `input()` functionality.
-3. **`turtle_draw.py`** - A simple drawing using Python's built-in `turtle` module (No extra libraries).
+ما **۱۲ اسکریپت آموزشی پایتون** در پوشه [samples](./samples/) قرار داده‌ایم. این اسکریپت‌ها از سطح مبتدی تا پیشرفته هستند و همگی فقط از کتابخانه‌های داخلی پایتون استفاده می‌کنند.
+
+### 🟢 Beginner | تازه‌کار
+1. `01_hello_world.py` - Basic print statements and variables.
+2. `02_input.py` - Getting user input via the Terminal.
+3. `03_math_operators.py` - Basic math operations.
+
+### 🟡 Intermediate | میان‌پایه
+4. `04_conditionals.py` - If, Elif, and Else statements.
+5. `05_loops.py` - For and While loops.
+6. `06_lists_tuples.py` - Working with lists and tuples.
+7. `07_dictionaries.py` - Storing data in key-value pairs.
+8. `08_functions.py` - Defining and calling functions.
+
+### 🔴 Advanced & Modules | پیشرفته و سَنجانه‌ها
+9. `09_modules.py` - Using built-in modules like `math` and `random`.
+10. `10_exceptions.py` - Try-except blocks for error handling.
+11. `11_file_handling.py` - Reading and writing files.
+12. `12_turtle.py` - A fun drawing test using Python's built-in `turtle` module.
+
+*(To test these, open CodeBaaf, load a script, and press **F5** to run it in the Terminal!)*
 
 ---
 
