@@ -47,10 +47,23 @@ We have included three sample Python scripts in the [samples](./samples/) folder
 
 ---
 
+## ⭐ Support the Project | پشتیبانی از پروژه
+
+If you find **CodeBaaf** useful, or if it brings a little joy to your coding journey, you may consider giving it a **Star** ⭐. 
+
+Your stars are the light that keeps this project shining and motivate us to build more! 
+
+اگر **شناسه‌باف** برایتان سودمند بود، یا اندکی به آروین برنامه‌نویسی شما شادی بخشید، میتوانید با دادن یک **ستاره** ⭐ از این پروژه، پشتیبانی کنید.
+
+---
+
 <table>
 <tr>
 <td>
-<img src="./Media/ver-0-0.jpg" alt="A snapshot of the CodeBaaf, version 0.0" width="400"><br>Figure 1. A snapshot of the CodeBaaf, version 0.0
+<img src="./Media/ver-0-0.jpg" alt="A snapshot of the CodeBaaf, version 0.0" width="400">Figure 1. A snapshot of the CodeBaaf, version 0.0, dark mode.
+</td>
+<td>
+<img src="./Media/ver-0-0-a.jpg" alt="A snapshot of the CodeBaaf, version 0.0" width="400"><br>Figure 2. A snapshot of the CodeBaaf, version 0.0, light mode.
 </td>
 </tr>
 </table>
