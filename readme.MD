@@ -21,7 +21,7 @@
 - Python 3.8 or higher
 - PySide6
 
-### Installation (from Source) | درنشاندن از چشمه
+### Installation (from Source) | درنشاندن از سرچشمه
 1. Clone the repository:
    ```bash
    git clone https://github.com/ostad-ai/CodeBaaf.git
