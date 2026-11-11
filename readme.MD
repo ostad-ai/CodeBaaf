@@ -114,6 +114,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <img src="./Media/ver-0-0-a.jpg" alt="A snapshot of the CodeBaaf, version 0.0" width="400">Figure 2. A snapshot of the CodeBaaf, version 0.0, light mode.
 </td>
 </tr>
+<tr>
+<td>
 <img src="./Media/ver-0-1.jpg" alt="A snapshot of the CodeBaaf, version 0.1" width="400">Figure 3. A snapshot of the CodeBaaf, version 0.1, dark mode.
 </td>
 <td>
