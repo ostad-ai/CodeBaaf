@@ -1,39 +1,64 @@
-# CodeBaaf (شناسه‌باف) v0.0
+# CodeBaaf (شناسه‌باف) v0.1
 
-**CodeBaaf** is a lightweight, modern, and **open-source** Python IDE. It is designed to be simple, beautiful, and fast. Perfect for quick scripting, learning Python, or building small projects.
+**CodeBaaf** (شناسه‌باف) is a lightweight, modern, and open-source Python IDE built with PySide6. It is designed for speed, simplicity, and a beautiful coding experience. The name "CodeBaaf" comes from the Persian word "Baaf" (باف), meaning to weave—because here, you weave your code into reality.
 
 ---
 
 ## ✨ Features | رُخسارها
 
-- 🎨 **Modern Dark/Light Theme**: Easy on the eyes.
+### 🌟 Core Features (from v0.0)
+- 🎨 **Modern Dark/Light Theme**: Easy on the eyes for long coding sessions.
 - ⚡ **Syntax Highlighting & Auto-complete**: Write Python faster.
-- ▶️ **Run Code Instantly**: Execute your code inside the terminal or output tab.
-- 📝 **Integrated Terminal**: Real `cmd.exe` interaction with `input()` support.
-- 📂 **File Manager**: Open, save, and manage your `.py` files easily.
-- 🪟 **Standalone Executable**: Available as a `.exe` for Windows users (no Python installation required).
+- ▶️ **Run Code Instantly**: Execute your code with `F5`.
+- 💻 **Integrated Terminal**: Real `cmd.exe` interaction with `input()` support.
+- 🪟 **Standalone Executable**: Available for Windows users.
+
+### 🚀 New Features in v0.1
+- 📂 **File Explorer**: Navigate your projects with a built-in sidebar. Open/Close folders easily.
+- 📝 **Multi-Tab Editing**: Open and manage multiple files at once without losing your place.
+- 📐 **Auto-Indent & Indent Guides**: Smart indentation after `:` and beautiful vertical lines to keep your blocks organized.
+- ⌨️ **Powerful Shortcuts**: 
+  - `Ctrl+D` (Duplicate Line)
+  - `Alt+Up/Down` (Move Line)
+  - `Ctrl+/` (Toggle Comment)
+  - `Ctrl+Scroll` (Zoom In/Out)
+- 🛠️ **Auto-Fix Tabs**: Converts tabs to spaces automatically on run to prevent `TabError`.
+- 📊 **Status Bar**: Real-time Line and Column indicator (`Ln 1, Col 1`).
 
 ---
 
-## 🚀 Getting Started | آغاز کار
+## 🚀 Getting Started (from Source) | آغازکار (از سرچشمه
 
 ### Prerequisites | پیش‌نیازها
 - Python 3.8 or higher
 - PySide6
 
-### Installation (from Source) | درنشاندن از سرچشمه
+### Running the Open-Source Version
+To run the open-source version, clone the repository and run `codebaaf-opensource.py`:
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/ostad-ai/CodeBaaf.git
    cd CodeBaaf
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the open-source IDE:
+   ```bash
+   python codebaaf-opensource.py
+   ```
 
 ---
 
 ## 📥 Download the Executable | بارگیری پچین پساختی
 
-You can download the standalone `.exe` version directly from the **Releases** page. No Python installation is required.
+You can download the standalone `.exe` version directly from the **Releases** page. No Python installation is required. Simply extract the `.zip` file and run `CodeBaaf.exe`.
 
-**[Click here to download CodeBaaf v0.0 for Windows 10 and over](https://github.com/ostad-ai/CodeBaaf/releases/tag/v0.0)**
+**[Click here to download CodeBaaf v0.1 for Windows](https://github.com/ostad-ai/CodeBaaf/releases/tag/v0.1)**
+
+*(Note: The open-source version is `v0.0` and can be run from the source code. The `v0.1` release includes advanced features like File Explorer and Multi-Tab).*
 
 ---
 
@@ -75,6 +100,11 @@ Your stars are the light that keeps this project shining and motivate us to buil
 
 ---
 
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
 <table>
 <tr>
 <td>
@@ -82,6 +112,12 @@ Your stars are the light that keeps this project shining and motivate us to buil
 </td>
 <td>
 <img src="./Media/ver-0-0-a.jpg" alt="A snapshot of the CodeBaaf, version 0.0" width="400">Figure 2. A snapshot of the CodeBaaf, version 0.0, light mode.
+</td>
+</tr>
+<img src="./Media/ver-0-1.jpg" alt="A snapshot of the CodeBaaf, version 0.1" width="400">Figure 3. A snapshot of the CodeBaaf, version 0.1, dark mode.
+</td>
+<td>
+<img src="./Media/ver-0-1-a.jpg" alt="A snapshot of the CodeBaaf, version 0.1" width="400">Figure 4. A snapshot of the CodeBaaf, version 0.1, light mode.
 </td>
 </tr>
 </table>

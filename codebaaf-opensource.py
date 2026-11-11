@@ -1,3 +1,5 @@
+#--- updated Nov. 10, 2026 ---
+
 import sys
 import os
 import re
@@ -224,7 +226,7 @@ class FindReplaceDialog(QDialog):
         self.find_next_btn.clicked.connect(lambda: self.find_text(forward=True))
         btn_layout.addWidget(self.find_next_btn)
 
-        self.find_prev_btn = QPushButton("Find Prev")
+        self.find_prev_btn = QPushButton("Find Previous")
         self.find_prev_btn.clicked.connect(lambda: self.find_text(forward=False))
         btn_layout.addWidget(self.find_prev_btn)
 
@@ -666,7 +668,6 @@ class CodeBaaf(QMainWindow):
         c = self.output.textCursor()
         c.movePosition(QTextCursor.End)
         
-        # TAGHIR-E ASLI: Newline ghabli ra ham ezafe mikonim
         safe_text = text.replace("\n", "<br>")
         c.insertHtml(f"<br><span style='color: {color};'>[{timestamp}] {safe_text}</span>")
         
@@ -707,9 +708,6 @@ class CodeBaaf(QMainWindow):
         self._input_start = c.position()
         self.terminal.setTextCursor(c)
 
-        # IN KHAT HAZF SHOD:
-        # self.append_output_log(line + "\n") 
-        
         self._send_terminal_line(line)
         
     def _send_terminal_line(self, line):
@@ -874,25 +872,6 @@ class CodeBaaf(QMainWindow):
             self.interrupt_terminal()
             self.status_bar.showMessage("Ready")
 
-    def on_output(self, text):
-        color = "#a6e3a1" if self.is_dark_mode else "#40a02b"
-        self.output.append(f"<span style='color: {color};'>{text.rstrip()}</span>")
-
-    def on_error(self, text):
-        color = "#f38ba8" if self.is_dark_mode else "#d20f39"
-        self.output.append(f"<span style='color: {color};'>{text.rstrip()}</span>")
-
-    def on_run_finished(self, start_time):
-        color = "#89b4fa" if self.is_dark_mode else "#1e66f5"
-        if start_time > 0:
-            elapsed = time.time() - start_time
-            self.output.append(f"<span style='color: {color};'>--- Finished in {elapsed:.2f} seconds ---</span>")
-            self.output.append("-" * 50)
-            
-        self.run_btn.setEnabled(True)
-        self.stop_btn.setEnabled(False)
-        self.status_bar.showMessage("Ready")
-
     def show_output_menu(self, pos):
         menu = QMenu(self)
         copy_action = menu.addAction("Copy")
@@ -934,6 +913,13 @@ class CodeBaaf(QMainWindow):
     def on_text_changed(self):
         if self.loading_file:
             return
+            
+        # FIX 2: Agar file jadid ast va khali ast, taghir hesab nashe
+        if self.current_file is None and self.editor.toPlainText() == "":
+            self.is_modified = False
+            self.update_title()
+            return
+
         if not self.is_modified:
             self.is_modified = True
             self.update_title()
@@ -1031,6 +1017,10 @@ class CodeBaaf(QMainWindow):
                 self.is_modified = False
                 self.update_title()
                 self.status_bar.showMessage(f"Opened: {os.path.basename(path)}")
+                
+                # FIX 1: Be-rooz kardan-e line numbers
+                self.editor.update_line_number_area_width(0)
+                
             except Exception as e:
                 QMessageBox.critical(self, "Error", str(e))
 
@@ -1114,6 +1104,10 @@ class CodeBaaf(QMainWindow):
 
     def closeEvent(self, event):
         self._kill_terminal_tree()
+
+        # FIX 2: Agar file khali ast va untitled ast, payaam nade
+        if self.current_file is None and self.editor.toPlainText() == "":
+            self.is_modified = False
 
         if self.is_modified and not self.loading_file:
             reply = QMessageBox.question(
