@@ -1,4 +1,4 @@
-# CodeBaaf (شناسه‌باف) v0.1
+# CodeBaaf (شناسه‌باف) v0.2
 
 **CodeBaaf** (شناسه‌باف) is a lightweight, modern, and open-source Python IDE built with PySide6. It is designed for speed, simplicity, and a beautiful coding experience. The name "CodeBaaf" comes from the Persian word "Baaf" (باف), meaning to weave—because here, you weave your code into reality.
 
@@ -6,24 +6,31 @@
 
 ## ✨ Features | رُخسارها
 
-### 🌟 Core Features (from v0.0)
+### 🌟 Core Features (from v0.0 & v0.1)
 - 🎨 **Modern Dark/Light Theme**: Easy on the eyes for long coding sessions.
 - ⚡ **Syntax Highlighting & Auto-complete**: Write Python faster.
+- 📂 **File Explorer**: Navigate your projects with a built-in sidebar.
+- 📝 **Multi-Tab Editing**: Open and manage multiple files at once.
 - ▶️ **Run Code Instantly**: Execute your code with `F5`.
 - 💻 **Integrated Terminal**: Real `cmd.exe` interaction with `input()` support.
-- 🪟 **Standalone Executable**: Available for Windows users.
+- 📐 **Auto-Indent & Indent Guides**: Beautiful vertical lines to keep your blocks organized.
+- 📄 **Multi-Format Support**: Write, save, and open `.py`, `.md`, and `.txt` files with ease.
+- 👁️ **Markdown Preview**: Live preview for your `.md` files (perfect for viewing READMEs).
+- ⚙️ **Standalone Executable**: Available as a `.zip` download for Windows.
 
-### 🚀 New Features in v0.1
-- 📂 **File Explorer**: Navigate your projects with a built-in sidebar. Open/Close folders easily.
-- 📝 **Multi-Tab Editing**: Open and manage multiple files at once without losing your place.
-- 📐 **Auto-Indent & Indent Guides**: Smart indentation after `:` and beautiful vertical lines to keep your blocks organized.
-- ⌨️ **Powerful Shortcuts**: 
-  - `Ctrl+D` (Duplicate Line)
-  - `Alt+Up/Down` (Move Line)
-  - `Ctrl+/` (Toggle Comment)
-  - `Ctrl+Scroll` (Zoom In/Out)
-- 🛠️ **Auto-Fix Tabs**: Converts tabs to spaces automatically on run to prevent `TabError`.
-- 📊 **Status Bar**: Real-time Line and Column indicator (`Ln 1, Col 1`).
+### 🚀 New Features in v0.2
+- **🎨 7 Beautiful Themes:** Catppuccin, Dracula, Nord, Monokai, Solarized, GitHub, and Light. (Cycle with `Ctrl+Alt+T`).
+- **⚡ Quick Open (`Ctrl+P`):** Instantly jump to any file in your project.
+- **🔍 Global Search (`Ctrl+Shift+F`):** Search for a word across all files in your folder.
+- **💻 Run Selected Code (`Ctrl+R`):** Highlight a few lines and run only those in the Terminal.
+- **🧘 Zen Mode (`F11`):** Hide all menus and sidebars for absolute focus.
+- **⚙️ Font Selector:** Change the editor font to anything you like (e.g., Fira Code).
+- **📑 Tab Context Menu:** Right-click on tabs to Close, Close Others, or Close All.
+- **🕒 Recent Files:** Quickly access your last opened files from the File menu.
+- **📏 Go to Line (`Ctrl+G`):** Jump directly to a specific line number.
+- **↩️ Word Wrap (`Alt+Z`):** Toggle word wrapping for long lines.
+- **🎯 Bracket Pair Colorizer:** Matching parentheses are now color-coded for easier navigation.
+- **💾 Auto-Save:** Option to automatically save files every 10 minutes.
 
 ---
 
@@ -56,9 +63,9 @@ To run the open-source version, clone the repository and run `codebaaf-opensourc
 
 You can download the standalone `.exe` version directly from the **Releases** page. No Python installation is required. Simply extract the `.zip` file and run `CodeBaaf.exe`.
 
-**[Click here to download CodeBaaf v0.1 for Windows](https://github.com/ostad-ai/CodeBaaf/releases/tag/v0.1)**
+**[Click here to download CodeBaaf v0.2 for Windows](https://github.com/ostad-ai/CodeBaaf/releases/tag/v0.2)**
 
-*(Note: The open-source version is `v0.0` and can be run from the source code. The `v0.1` release includes advanced features like File Explorer and Multi-Tab).*
+*(Note: The open-source version is `v0.0` and can be run from the source code. The `v0.2` release includes advanced features like File Explorer, Multi-Tab, Recent Files, Markdown preview, and Zen mode).*
 
 ---
 
@@ -120,6 +127,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </td>
 <td>
 <img src="./Media/ver-0-1-a.jpg" alt="A snapshot of the CodeBaaf, version 0.1" width="400">Figure 4. A snapshot of the CodeBaaf, version 0.1, light mode.
+</td>
+</tr>
+<tr>
+<td>
+<img src="./Media/ver-0-2.jpg" alt="A snapshot of the CodeBaaf, version 0.2" width="400">Figure 5. A snapshot of the CodeBaaf, version 0.2, Github Dark mode.
+</td>
+<td>
+<img src="./Media/ver-0-2-a.jpg" alt="A snapshot of the CodeBaaf, version 0.2" width="400">Figure 6. A snapshot of the CodeBaaf, version 0.2, Zen mode.
 </td>
 </tr>
 </table>
