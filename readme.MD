@@ -1,4 +1,4 @@
-# CodeBaaf (شناسه‌باف) v0.2.1
+# CodeBaaf (شناسه‌باف) v0.2.2
 
 **CodeBaaf** (شناسه‌باف) is a lightweight, modern, and open-source Python IDE built with PySide6. It is designed for speed, simplicity, and a beautiful coding experience. The name "CodeBaaf" comes from the Persian word "Baaf" (باف), meaning to weave—because here, you weave your code into reality.
 
@@ -18,7 +18,7 @@
 - 👁️ **Markdown Preview**: Live preview for your `.md` files (perfect for viewing READMEs).
 - ⚙️ **Standalone Executable**: Available as a `.zip` download for Windows.
 
-### 🚀 New Features in v0.2.1
+### 🚀 New Features in v0.2.2
 - **🎨 7 Beautiful Themes:** Catppuccin, Dracula, Nord, Monokai, Solarized, GitHub, and Light. (Cycle with `Ctrl+Alt+T`).
 - **⚡ Quick Open (`Ctrl+P`):** Instantly jump to any file in your project.
 - **🔍 Global Search (`Ctrl+Shift+F`):** Search for a word across all files in your folder.
@@ -63,9 +63,9 @@ To run the open-source version, clone the repository and run `codebaaf-opensourc
 
 You can download the standalone `.exe` version directly from the **Releases** page. No Python installation is required. Simply extract the `.zip` file and run `CodeBaaf.exe`.
 
-**[Click here to download CodeBaaf v0.2.1 for Windows](https://github.com/ostad-ai/CodeBaaf/releases/tag/v0.2.1)**
+**[Click here to download CodeBaaf v0.2.2 for Windows](https://github.com/ostad-ai/CodeBaaf/releases/tag/v0.2.2)**
 
-*(Note: The open-source version is `v0.0` and can be run from the source code. The `v0.2.1` release includes advanced features like File Explorer, Multi-Tab, Recent Files, Markdown preview, and Zen mode).*
+*(Note: The open-source version is `v0.0` and can be run from the source code. The `v0.2.2` release includes advanced features like File Explorer, Multi-Tab, Recent Files, Markdown preview, and Zen mode).*
 
 ---
 
